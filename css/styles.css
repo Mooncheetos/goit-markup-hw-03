@@ -26,6 +26,9 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 16px;
 }
 
 /* Колір для частини логотипу */
@@ -47,6 +50,13 @@ body {
 .header-link-fir:hover,
 .header-link-fir:focus {
     color: #404bbf;
+}
+
+.container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 
 /* Стилі для списків */
@@ -98,6 +108,8 @@ a {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    margin: 0 auto;
+    max-width: 496px;
 }
 
 /* Стилі для кнопки в першій секції */
@@ -128,6 +140,12 @@ a {
         text-transform: capitalize;
         letter-spacing: 0.02em;
 }
+
+/* .section-beneros {
+    display: inline-block;
+    flex-wrap: wrap;
+} */
+
 /* Стилі для заголовків користувальницьких портфоліо */
 .section-port {
     color: #2e2f42;
@@ -223,20 +241,47 @@ a {
 /* Стилі для футера */
 .page-footer {
     color: #2e2f42;
+    padding: 100px 0;
+    height: 312px;
+    flex-shrink: 0;
+    margin-top: 120px;
+}
+
+.page-footer .container {
+    margin-left: 156px;
+    width: 264px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 /* Стилі для тексту футера */
 .footer-text {
     font-size: 16px;
+    font-weight: 400;
+    padding-top: 17.5px;
     line-height: 1.50;
     color: #f4f4fd;
     letter-spacing: 0.02em;
+    width: 264px;
     /* 5dob */
+}
+
+.page-footer-container {
+    background-color: #2e2f42;
+}
+
+.page-footer-container a {
+    margin-bottom: 17.5px;
 }
 
 /* Колір для частини логотипу у футері */
 .footer-logo {
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
+    margin-right: 76px;
 }
 
 /* Колір для частини логотипу у футері при наведенні */

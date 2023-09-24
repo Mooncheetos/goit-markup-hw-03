@@ -54,7 +54,6 @@ body {
 
 .header-navigation-link {
     margin-right: 40px;
-    padding: 24px 0;
 }
 
 /* .header-navigation-link-ost {
@@ -68,6 +67,7 @@ body {
     font-weight: 500;
     line-height: 1.50;
     letter-spacing: 0.02em;
+    padding: 24px 0;
     /* 1dob */
 }
 
@@ -207,7 +207,7 @@ a {
 }
 
 .section-beneros-list {
-    width: calc((100% - 72px) / 4);
+    width: calc((100%-72px)/4);
 }
 
 /* Стилі для заголовків користувальницьких портфоліо */
@@ -255,7 +255,7 @@ a {
 }
 
 .team-img-odi {
-    width: calc((100% - 72px)/4);
+    width: calc((100%-72px)/4);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -394,4 +394,5 @@ a {
 /* Колір для частини логотипу у футері при наведенні */
 .footer-logo-color {
     color: #f4f4fd;
+    margin-bottom: 16px;
 }

@@ -93,6 +93,8 @@ ul {
     list-style-type: none;
     list-style: none;
     padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 /* Стилі для посилань */
@@ -208,7 +210,7 @@ a {
 }
 
 .section-beneros-list {
-    width: calc((100%-72px)/4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 /* Стилі для заголовків користувальницьких портфоліо */
@@ -256,7 +258,7 @@ a {
 }
 
 .team-img-odi {
-    flex-basis: calc((100%-72px)/4);
+    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -326,7 +328,7 @@ a {
 }
 
 .port-images-folio {
-    flex-basis: calc((100% - 48px)/3);
+    flex-basis: calc((100% - 48px) / 3);
 }
 
 /* Стилі для імені та типу робіт у портфоліо */

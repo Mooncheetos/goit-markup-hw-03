@@ -252,7 +252,7 @@ a {
 }
 
 .team-img-odi {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 72px)/4);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -322,7 +322,7 @@ a {
 }
 
 .port-images-folio {
-    width: calc((100% - 48px) / 3);
+    width: calc((100% - 48px)/3);
 }
 
 /* Стилі для імені та типу робіт у портфоліо */
@@ -335,7 +335,8 @@ a {
     margin-bottom: 8px;
 }
 
-.portfolio-container {
+
+.portfolio-image .container {
     padding: 32px 16px;
         border: 1px solid #e7e9fc;
         border-top: none;
